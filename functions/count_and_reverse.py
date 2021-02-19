@@ -8,4 +8,4 @@ def reverse_num(num):
         length += 1
     return count, length
     
-print(reverse_num(123))
+print(reverse_num(123676767676))
