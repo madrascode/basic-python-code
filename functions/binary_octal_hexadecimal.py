@@ -19,7 +19,7 @@ def bin_to_decimal(num):
     count = 0
     while temp > 0:
         # print(num)
-        digit = temp % 10 #temp=1011 -- chinu debugged 
+        digit = temp % 10 #temp=1011 -- cinu debugged 
         decimal = decimal + digit * pow(2,count)
         temp = temp // 10
         count = count +  1
