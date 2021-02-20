@@ -8,8 +8,8 @@ def dec_to_bin(num):
         result_arr.append(digit)
         binary += str(digit)
         num //= 2
-    
     result_arr.reverse()
+    
     return result_arr
 
 a = dec_to_bin(4)
